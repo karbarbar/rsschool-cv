@@ -1,1 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: darkgrey;
+}
+.section {
+  width: 60%;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: 300;
+    line-height: 50px
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-left{
+    margin: 0;
+    padding: 25px;
+    width: 30%;
+    height: auto;
+    background-color: #343945;
+    display: flex;
+    flex-direction: column;
+    }
+.container-right{
+    margin: 0px;
+    padding: 25px;
+    border: 0px;
+    width: 70%;
+    height: auto;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    }
+.section-right-title{
+    font-size: 28px;
+}
+.container-foother{
+    display: flex;
+    flex-direction: row;
+    background-color: goldenrod ;}
+.my github{
+    text-align: left ;
+}
+.footer_year{
+    text-align: center;
+}
+.logo{
+    text-align: right;
+}
+
+
+/*left side*/
+
+
 
