@@ -25,7 +25,7 @@ body {
 }
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
     align-items: center;
     list-style: none;
 }
@@ -36,55 +36,46 @@ body {
     padding-right: 30px;
     font-weight: 300;
     line-height: 50px
-}
+    }
 html {
   scroll-behavior: smooth;
 }
 .container {
     max-width: 1440px;
-    margin: 0px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: coral;
 }
 .container-left{
     margin: 0;
     padding: 25px;
     width: 30%;
     height: auto;
-    background-color: #343945;
+    background-color:wheat;
     display: flex;
     flex-direction: column;
     }
 .container-right{
-    margin: 0px;
+    margin: 0;
     padding: 25px;
-    border: 0px;
+    border: 0;
     width: 70%;
     height: auto;
-    background-color: darkslategray;
+    background-color: honeydew;
     display: flex;
     flex-direction: column;
     }
 .section-right-title{
-    font-size: 28px;
+    font-size: 30px;
 }
-.container-foother{
-    display: flex;
-    flex-direction: row;
-    background-color: goldenrod ;}
-.my github{
-    text-align: left ;
+.container-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    }
+.section-profile{
+    width: 150%;
+    object-fit: fill;
 }
-.footer_year{
-    text-align: center;
-}
-.logo{
-    text-align: right;
-}
-
-
-/*left side*/
-
-
-
