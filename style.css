@@ -53,6 +53,12 @@ ul{
     height: auto;
     background-color: #efecf2;
 }
+.main .container-right .about_me p{
+    padding: 20px 20px 20px 15px;
+}
+code{
+    padding: 20px 20px 20px 15px;
+}
 .main .container-left .photo{
     background-color: #efecf2;
     text-align: center;
@@ -71,11 +77,13 @@ ul{
     height: auto;
     background-color: gainsboro;
     }
+
 .main .container-left .information{
     padding: 30px 30px 30px 30px;
 }
 .main .container-left .skills{
     padding: 30px 30px 30px 30px;
+    background-image: none;
 }
 .main .container-left .languages{
     padding: 30px 30px 80px 30px;
